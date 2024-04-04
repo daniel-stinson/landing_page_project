@@ -9,7 +9,7 @@
 <body>
     <!--Five total sections-->
     <!--Header: Logo, 3 links, Hero statement, button, image-->
-    <div class = "header">
+    <div class="header">
         <div class="header-logo">
             <h2>Danny's Page</h2>
         </div>
@@ -21,9 +21,12 @@
             </ul>
         </div>
         <div class="header-hero">
-            <h1>This website is awesome.</h1>
-            <p>This website has some subtext that goes here under the main title. 
-                It's a smaller font and the color is lower contrast.</p>
+            <div class="hero-main-text">This website is awesome.</div>
+            <div class="hero-secondary-text">This website has some subtext that goes here under the main title. 
+                It's a smaller font and the color is lower contrast.</div>
+        </div>
+        <div class="header-button">
+            <h3>Sign Up</h3>
         </div>
         <div class="header-image">
             <img src="images/landing1.jpg"
@@ -34,23 +37,62 @@
     </div>
 
     <!--Main section: Title, four images in a row-->
-    <div class = "main">
-        <p>Test</p>
+    <div class="main">
+        <div class="information-header">Some Random Information</div>
+        <div class="main-image-container">
+            <div class="main-image-item">
+            <img src=""
+                alt="Image 1"
+                height="50"
+                width="50">
+            <div class="info-text">This is some subtext under an image</div>
+            </div>
+            <div class="main-image-item">
+            <img src=""
+                alt="Image 2"
+                height="50"
+                width="50">
+            <div class="info-text">This is some subtext under an image</div>    
+            </div>
+            <div class="main-image-item">
+            <img src="" 
+                alt="Image 2" 
+                height="50" 
+                width="50">
+            <div class="info-text">This is some subtext under an image</div>
+            </div>
+            <div class="main-image-item">
+            <img src="" 
+                alt="Image 2" 
+                height="50" 
+                width="50">
+            <div class="info-text">This is some subtext under an image</div>
+            </div>
+        </div>
     </div>
 
     <!--Quote section: different color, different fonts-->
-    <div class = "quote">
-        <p>Test</p>
+    <div class="quote-section">
+        <div class="quote">
+                The magic isn't real until the magic is gone. If the flame was eternal, then it won't be for long.
+        </div>
+        <div class="quote-attribution">
+            Every Time I Die: Nothing Visible, Ocean Empty
+        </div>
     </div>
 
     <!--Button section: Has call to action and then button on the side-->
-    <div class = "button-section">
-        <p>Test</p>
+    <div class="button-section">
+        <div class="action-box">
+            <h2>Call to action! It's time!</h2>
+            <p>Sign up for our product by clicking the Sign Up button</p>
+            <div class="signup-button">Sign Up</div>
+        </div>
     </div>
 
     <!--Footer section-->
     <div class="footer">
-        <p>Test</p>
+        <h5>Copyright &copy The Odin Project 2024</h5>
     </div>
 </body>
 </html>
