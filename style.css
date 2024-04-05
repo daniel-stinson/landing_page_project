@@ -18,6 +18,7 @@
 ul {
     list-style-type: none;
     display: flex;
+    justify-content: space-around;
     margin: 0;
     padding: 0;
     gap: 16px;
@@ -42,7 +43,7 @@ ul {
 .left,
 .left-2 {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     gap: 16px;
 }
@@ -61,7 +62,7 @@ ul {
 
 .header-image {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-around;
     padding-bottom: 50px;
 } 
 
@@ -70,20 +71,39 @@ ul {
     font-weight: bold;
     color: #1F2937;
     text-align: center;
+    padding-bottom: 25px;
 }
 
-img{
+.main-image-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-text {
+    text-align: center;
+    max-width: 100px;
+}
+
+.main {
+    padding: 50px;
+}
+
+img {
     border: 1px solid #E5E7EB;
     border-radius: 5px;
 }
 
 .quote-section {
+    display: flex;
+    justify-content: center;
     background-color: #E5E7EB;
+    padding: 75px;
 }
 
 .quote {
     font-size: 26px;
     color: #1F2937;
+    max-width: 350px;
 }
 
 .quote-attribution {
